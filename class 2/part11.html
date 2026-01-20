@@ -1,0 +1,93 @@
+<html lang="en">
+    <head>
+        <title>Form tag</title>
+    </head>
+
+    <body>
+       <form>
+
+        <label>Name</label>
+        <input type="text" required placeholder="Enter your name"/><br><br>
+
+        <label>password</label>
+        <input type="password" placeholder="Enter password"/><br> <br>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email"/><br> <br>
+
+        <label>Number</label>
+        <input type="number" placeholder="Enter number"/><br> <br>
+
+        <label>Date</label>
+        <input type="date"> <br><br>
+
+        <label>Date and time</label>
+        <input type="datetime-local"> <br><br>
+
+        <label>Rank</label>
+        <input type="range"> <br><br>
+
+        <label>Choose your fvrt game</label>
+        <input type="checkbox"> <label>cricket</label>
+        <input type="checkbox"> <label>football</label>
+        <input type="checkbox"> <label>hoky</label> <br><br>
+
+        <label>message</label><br>
+        <textarea>
+
+        </textarea><br> <br>
+
+        <label> Gender </label>
+        <input type="radio" name="gender" id="male"/><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"/><label for="female">Female</label>
+
+        <br><br>
+        <!-- 2nd part of form tag -->
+        <select>
+            <option>Bangladesh</option>
+            <option>Sri-lanka</option>
+            <option>India</option>
+            <option>pakistan</option>
+            <option>Butan</option>
+         </select> <br><br>
+
+         <label>College</label>
+         <select>
+            <optgroup label="Science">
+                <option>H.Math</option>
+                <option>Physic</option>
+                <option>Chemistry</option>
+            </optgroup>
+
+            <optgroup label="Commarce">
+                <option>Fi--</option>
+                <option>Accounting</option>
+                <option>Marking</option>
+            </optgroup>
+
+            <optgroup label="Arts">
+                <option>History</option>
+                <option>Geo graphy</option>
+                <option>phy...</option>
+            </optgroup>
+
+         </select>
+
+
+        <label>Car</label>
+        <input list="cars" name="car">
+        <datalist id="cars">
+            <option value="Innova">
+            <option value="Kwid">
+            <option value="Etios">
+            <option value="Swift">
+            <option value="Duster">
+        </datalist>
+
+        <input type="file" />
+
+        <input type="submit"/>
+        <input type="reset"/>
+       </form>
+    </body>
+</html>
