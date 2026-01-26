@@ -1,0 +1,52 @@
+.font {
+    color: blueviolet;
+}
+
+#text {
+    /* font : style  variant  width   size  family */
+    /* font : italic small-caps 100px x-small tohoma; */
+    font-weight: 900;
+    font-size: x-small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: initial;
+    
+    text-align: right;
+}
+
+#hello{
+    text-align-last : center;
+    text-transform : capitalize;
+    word-spacing : 10px;
+    letter-spacing : 5px;
+}
+
+.tramform{
+    text-decoration-line : underline;
+    text-decoration: underline Double ;
+    text-decoration-color: aqua;
+
+}
+
+.column {
+    column-count: 3;
+    column-gap: 50px;
+    
+    column-rule-width: 2px;
+    column-rule-style: solid;
+    column-rule-color: rgb(13, 151, 172);
+
+    column-width: 200px;
+    column-fill: balance;
+}
+
+.overflow {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+    border: 1px solid black;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: Clip;
+}
