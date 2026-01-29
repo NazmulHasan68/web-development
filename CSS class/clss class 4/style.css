@@ -1,0 +1,41 @@
+/* .bg {
+    width: 100%;
+    height: 600px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa1B4tShmACN43EGDo9tjjttU4V2txoeqXkA&s");
+    background: linear-gradient(to left, red, blue);
+    mix-blend-mode: darken;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+} */
+
+.bg {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0.5), rgba(0,0,255,0.5)),
+        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa1B4tShmACN43EGDo9tjjttU4V2txoeqXkA&s");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.text {
+    padding: 20% 40%;
+}
+
+
+#color{
+    width: 100%;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+
+   
+   background: conic-gradient(red, yellow, green, blue);
+
+    color: rgba(189, 232, 245, 0.8);
+    font-size: xx-large;
+    opacity: 0.1;
+}
