@@ -1,0 +1,87 @@
+.hello{
+    color: brown;
+    border: 2px solid red;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 10px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    display: none;
+}
+
+
+
+/* Father Container */
+.father-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 20px;
+  background: #f3f3f3;
+}
+
+/* Each Group */
+.group {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 12px;
+  width: calc(30% - 12px); /* 2 group per row */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Boxes */
+.box {
+  flex: 1;
+  height: 80px;
+  background: #2D602E;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  /* up and down */
+  justify-content: center; 
+  /* lift right */
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+
+/* flex
+.justify-content
+.align-tiem
+gap
+flex-wrap
+flex: 1;
+base -1
+order-1 */
+
+
+
+/* display: flex
+
+    1. justify-content
+    2. align-items
+    4. gap	Space
+    6. flex-wrap	
+*/
+
+
+/* 1. flex
+2. grid 
+3. animation
+4. responsive */
+
+
+
+
+
+
+
+
+
+/* display ( block, line-block, flex, gride,) */
