@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    width: 220px;
+    height: 250px;
+    margin: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover{
+    scale: calc(1.1);
+}
+
+.card-head {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(7, 116, 141);
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-head-circle {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    /* border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
+
+    position: absolute;
+    bottom: -30px;
+    left: 75px;
+    /* top 
+    left 
+    right
+    bottom */
+    overflow: hidden;
+}
+
+.card-head-circle img {
+
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+}
+
+.card-details {
+    width: 100%;
+    height: 75%;
+    padding: 5px;
+}
+
+.card-details-name {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card-details-name h1{
+    font-size: 20px;
+}
+
+.card-details-flw 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding-top: 15px;
+
+    text-align: center;
+}
+
+.card-details-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0px;
+}
+
+
+.card-details-btn button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: crimson;
+    color: white;
+}
