@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===================================================
+                         header serction  
+======================================================= */
+
+.header {
+    background-color: rgb(252, 254, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: large;
+    font-weight: 800;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(13, 124, 198);
+}
+
+
+
+
+/* ===================================================
+                         Footer serction  
+======================================================= */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: rgb(4, 19, 36);
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    padding: 50px 30px;
+}
+
+.footer-text,
+.footer-media,
+.footer-page {
+    flex: 1;
+}
+
+
+.footer-page a {
+    text-decoration: none;
+    color: rgb(211, 220, 255);
+}
+
+
+.footer-media a {
+    text-decoration: none;
+    color: rgb(211, 220, 255);
+}
