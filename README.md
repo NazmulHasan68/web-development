@@ -1,2 +1,2 @@
 ﻿# web-development
- complete html . bangla english math science relison social science 
+ complete html . bangla english math science relison social  
