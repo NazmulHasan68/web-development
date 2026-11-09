@@ -1,6 +1,3 @@
 ﻿# web-development
  complete html
  ..
- ../
- ..
- ..
